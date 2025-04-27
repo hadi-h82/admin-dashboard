@@ -1,0 +1,19 @@
+# ASP.NET Core build directories
+bin/
+obj/
+
+# Angular build directories
+node_modules/
+dist/
+
+# ASP.NET Core user secrets
+secrets/
+
+# VS Code settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
