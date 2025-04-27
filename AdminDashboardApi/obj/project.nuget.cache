@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Tr6smaP0n+Q=",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\AdminDashboard\\AdminDashboardApi\\AdminDashboardApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bpc\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
+    "C:\\Users\\bpc\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
