@@ -1,5 +1,7 @@
 ﻿using AdminDashboardApi.Application.Interfaces;
 using AdminDashboardApi.Domain.Entities;
+using AdminDashboardApi.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 using System;
 
 namespace AdminDashboardApi.Infrastructure.Repositories
