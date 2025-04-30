@@ -4,10 +4,10 @@ namespace AdminDashboardApi.Application.Interfaces
 {
     public interface IRoleRepository
     {
-        Task<Role?> GetByIdAsync(int id);
+        Task<Role?> GetByIdAsync(Guid id);
         Task<List<Role>> GetAllAsync();
         Task AddAsync(Role role);
         Task UpdateAsync(Role role);
-        Task DeleteAsync(int id);
+        Task DeleteAsync(Guid id);
     }
 }

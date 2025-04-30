@@ -4,10 +4,10 @@ namespace AdminDashboardApi.Application.Interfaces
 {
     public interface IPermissionRepository
     {
-        Task<Permission?> GetByIdAsync(int id);
+        Task<Permission?> GetByIdAsync(Guid id);
         Task<List<Permission>> GetAllAsync();
         Task AddAsync(Permission permission);
         Task UpdateAsync(Permission permission);
-        Task DeleteAsync(int id);
+        Task DeleteAsync(Guid id);
     }
 }

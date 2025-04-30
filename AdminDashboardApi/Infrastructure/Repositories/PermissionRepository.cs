@@ -15,7 +15,7 @@ namespace AdminDashboardApi.Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<Permission?> GetByIdAsync(int id)
+        public async Task<Permission?> GetByIdAsync(Guid id)
         {
             return await _context.Permissions.FindAsync(id);
         }
@@ -37,7 +37,7 @@ namespace AdminDashboardApi.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task DeleteAsync(Guid id)
         {
             var permission = await _context.Permissions.FindAsync(id);
             if (permission != null)
