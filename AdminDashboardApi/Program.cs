@@ -1,4 +1,5 @@
 using AdminDashboardApi.Application.Interfaces;
+using AdminDashboardApi.Application.Services;
 using AdminDashboardApi.Infrastructure.Data;
 using AdminDashboardApi.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -15,6 +16,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 // Register Repositories
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<AuthService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
